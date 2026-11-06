@@ -1,0 +1,19 @@
+{
+  "$schema": "https://sokie.sh/schema/server.v1.json",
+  "schemaVersion": 1,
+  "name": "Petstore",
+  "description": "This is a sample Pet Store Server based on the OpenAPI 3.0 specification. You can find out more about Swagger at [https://swagger.io](https://swagger.io). In the third iteration of the pet store, we've switched to the design first approach! You can now help us improve the API whether it's by making changes to the definition itself or to the code. That way, with time, we can improve the API in general, and expose some of the new features in OAS3.",
+  "source": {
+    "type": "openapi",
+    "path": "openapi.json",
+    "url": "https://petstore3.swagger.io/api/v3/openapi.json"
+  },
+  "upstream": {
+    "auth": {
+      "type": "apiKey",
+      "in": "header",
+      "name": "api_key",
+      "key": "perCaller"
+    }
+  }
+}

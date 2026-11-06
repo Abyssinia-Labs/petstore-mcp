@@ -1,0 +1,6 @@
+---
+operation: DELETE /store/order/{orderId}
+title: Delete purchase order by identifier
+---
+
+For valid response try integer IDs with value < 1000. Anything above 1000 or non-integers will generate API errors.
